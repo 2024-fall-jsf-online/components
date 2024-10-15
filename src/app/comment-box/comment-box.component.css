@@ -1,0 +1,54 @@
+/* Container for the comment box */
+.comment-box-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  /* Simple heading style */
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling the textarea */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  /* Styling the button */
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2e3c99;
+  }
+  
+  /* Styling each comment card */
+  .comment-card {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  

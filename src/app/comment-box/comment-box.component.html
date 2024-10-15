@@ -1,0 +1,17 @@
+<div class="comment-box-container">
+    <h2>Leave a Comment</h2>
+    
+    <textarea 
+      [(ngModel)]="comment" 
+      placeholder="Write your comment here..." 
+      rows="4">
+    </textarea>
+    
+    <button (click)="addComment()">Submit</button>
+    
+    <div *ngFor="let comment of comments" class="comment-card">
+      {{ comment }}
+    </div>
+  </div>
+  
+  
