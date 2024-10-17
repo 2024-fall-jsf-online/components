@@ -1,0 +1,35 @@
+.calculator {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.calculator h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.calculator label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.calculator input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.calculator p {
+    font-size: 18px;
+    color: #4CAF50;
+    font-weight: bold;
+}
