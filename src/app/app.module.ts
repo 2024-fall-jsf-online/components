@@ -20,13 +20,12 @@ import { MatFormField } from '@angular/material/input';
 import { ToggleImageComponent } from './toggle-image/toggle-image.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
-
-import { MatFormFieldModule } from '@angular/material/form-field';
 import { LeafletModule } from '@bluehalo/ngx-leaflet';
-
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
 import { SfeAdditionComponent } from './sfe-addition/sfe-addition.component';
 import { DchMapComponent } from './dch-map/dch-map.component';
+import { NumProductsComponent } from './num-products/num-products.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +37,7 @@ import { DchMapComponent } from './dch-map/dch-map.component';
     SfeAdditionComponent,
     DchMapComponent,
     DmwAdditionComponent,
+    NumProductsComponent
   ],
   imports: [
     BrowserModule,
@@ -53,6 +53,22 @@ import { DchMapComponent } from './dch-map/dch-map.component';
     LeafletModule,
     MatProgressSpinner,
     MatFormField,
+  ]
+})
+@NgModule({
+  declarations: [
+    AppComponent
+    , PizzaToppingsComponent, NumProductsComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+    , FormsModule
+    , MatCardModule
+    , MatButtonModule
+    , MatCheckboxModule
+    ,MatInputModule
+    ,MatFormFieldModule
   ],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],

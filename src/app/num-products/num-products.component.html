@@ -1,0 +1,47 @@
+<mat-card>
+    <mat-card-title>
+      Jemal products of numbers
+    </mat-card-title>
+    <mat-card-content>
+      <mat-form-field>
+        <mat-label>First number</mat-label>
+        <input
+          matInput 
+          type="number"
+          [(ngModel)]="firstnumber"
+        />
+      </mat-form-field>
+      <br>
+      X
+      <br>
+      <mat-form-field>
+        <mat-label>Second number</mat-label>
+        <input
+          matInput 
+          type="number"
+          [(ngModel)]="secondnumber"
+        />
+      </mat-form-field>
+      <br>
+      X
+      <br>
+      <mat-form-field>
+        <mat-label>Third number</mat-label>
+        <input
+          matInput 
+          type="number"
+          [(ngModel)]="thirdnumber"
+        />
+      </mat-form-field>
+      <br>
+      <button 
+        mat-flat-button
+        (click)="multiply()"
+      >
+        Calculate
+      </button>
+      <br><br>
+      <strong>Result: {{ result }}</strong>  
+    </mat-card-content>
+  </mat-card>
+  
