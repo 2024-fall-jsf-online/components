@@ -1,0 +1,8 @@
+<div class="calculator">
+    <h3>Pizza Calculator</h3>
+    <label>
+        Number of People:
+        <input type="number" [(ngModel)]="numberOfPeople" min="1" />
+    </label>
+    <p>You will need approximately {{ getTotalPizzas() }} pizza(s).</p>
+</div>
