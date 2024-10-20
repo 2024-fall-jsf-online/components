@@ -15,7 +15,6 @@ import { DmwAdditionComponent } from './dmw-addition/dmw-addition.component';
 import { MatProgressSpinner } from '@angular/material/progress-spinner';
 
 import { MatInputModule } from '@angular/material/input';
-import { MatFormField } from '@angular/material/input';
 
 import { ToggleImageComponent } from './toggle-image/toggle-image.component';
 import { MatGridListModule } from '@angular/material/grid-list';
@@ -23,6 +22,7 @@ import { MatIconModule } from '@angular/material/icon';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { LeafletModule } from '@bluehalo/ngx-leaflet';
+import { PizzaCalculatorComponent } from './pizza-calculator/pizza-calculator.component';
 
 import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
 import { SfeAdditionComponent } from './sfe-addition/sfe-addition.component';
@@ -38,6 +38,8 @@ import { DchMapComponent } from './dch-map/dch-map.component';
     SfeAdditionComponent,
     DchMapComponent,
     DmwAdditionComponent,
+    PizzaCalculatorComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -50,11 +52,12 @@ import { DchMapComponent } from './dch-map/dch-map.component';
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
-    LeafletModule,
     MatProgressSpinner,
-    MatFormField,
+    LeafletModule
   ],
-  providers: [provideAnimationsAsync()],
-  bootstrap: [AppComponent],
+  providers: [
+    provideAnimationsAsync()
+  ],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
