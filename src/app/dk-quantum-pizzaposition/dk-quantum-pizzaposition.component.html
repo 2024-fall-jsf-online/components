@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-card-title>
+        Deven's Quantum Pizza-Position Component
+    </mat-card-title>
+    <mat-card-content>
+        <p>Does your pizza exist? It simultaneously does and does not until you press this button to find out.</p>
+        <div>
+            <button
+                mat-stroked-button
+                (click)="determinePizzaFate()"
+            >
+                Track your pizza through the confines of time and space.
+            </button>
+        </div>
+        <br>
+        <p>Your pizza's fate: {{pizzaMessage}}</p>
+    </mat-card-content>
+</mat-card>

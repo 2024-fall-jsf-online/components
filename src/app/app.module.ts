@@ -43,12 +43,13 @@ import { FeeDeliveryComponent } from './fee-delivery/fee-delivery.component';
 import { CommentBoxComponent } from './comment-box/comment-box.component';
 import { AoAdditionComponent } from './ao-addition/ao-addition.component';
 import { MmAdditionComponent } from './mm-addition/mm-addition.component';
+import { DkQuantumPizzapositionComponent } from './dk-quantum-pizzaposition/dk-quantum-pizzaposition.component';
 
 
 @NgModule({
   declarations: [
     AppComponent
-    , PizzaToppingsComponent, 
+    , PizzaToppingsComponent,
     TemperatureConverterComponent,
     TtySizesComponent, 
     ToggleImageComponent,
@@ -71,6 +72,7 @@ import { MmAdditionComponent } from './mm-addition/mm-addition.component';
     CommentBoxComponent,
     AoAdditionComponent,
     MmAdditionComponent,
+    DkQuantumPizzapositionComponent
   ],
   imports: [
     BrowserModule,
